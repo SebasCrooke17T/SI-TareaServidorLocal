@@ -1,0 +1,50 @@
+body{
+    background: #f9f6f1;
+	font-family: "Trebuchet MS", "Open Sans", sans-serif, Helvetica;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+a:link, a:visited, a:active{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: black;
+	transition-duration: 0.4s;
+}
+
+.barraMenuSuperior{
+	background: #cd1904;
+	height: 70px;
+	width: 100%;   
+    margin-left: auto;
+    margin-right: auto;
+	position: fixed;
+	top: 0px;
+	box-shadow: 2px	2px	5px #999;
+}
+
+.barraPestanias{
+	display: inline-block;
+	letter-spacing: 6px;
+	font-size: 17px;
+	color: white;
+	margin: 15px;
+}
+
+.contenido{
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#superiorCentro{  
+	display: inline-block;
+	height: 60px;
+	max-width: 1090px;
+	padding-top: 10px;
+}
